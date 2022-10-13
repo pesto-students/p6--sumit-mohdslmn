@@ -65,12 +65,11 @@ body{
     height: 150px;
     background-color:darkslategray;
 }
-nav{
-
+.foot{
     text-align: center;
     padding: 4em;
 }
-nav > a{
+.foot > a{
     color: chartreuse;
     margin: 50px;
     text-decoration: underline;
