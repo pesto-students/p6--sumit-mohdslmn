@@ -56,3 +56,59 @@
     transform: rotate(90deg);
 }
 
+.box{
+    margin: 300px;
+    margin-left: 600px;
+}
+.square1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition-property: transform ;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.square1:hover{
+    transform: rotate(90deg);
+}
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: transform ;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.square2:hover{
+    transform: rotate(90deg);
+}
+
+.box1{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.square3{
+   
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-property: transform ;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.square3:hover{
+    transform: rotate(90deg);
+}
+.square4{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition-property: transform ;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.square4:hover{
+    transform: rotate(90deg);
+}
