@@ -1,21 +1,15 @@
-var Person = function() {};
-Person.prototype.initialize=function(name,age)
-{
-    this.name=name;
-    this.age=age;
-}
-// TODO: create the class Teacher and a method teach
-class Teacher extends Person{
-    teach(sub){
-        this.sub=sub;
-        console.log(this.name +' '+ 'is now teaching'+' ' + this.sub);
 
-
-    }
+function Person() { }
+Person.prototype.initialize = function (name, age) {
+    this.name = name;
+    this.age = age;
 }
-him = new Teacher();
-him.initialize("Adam",45);
-him.teach("Inheritance");
-//Adam is now teaching Inheritance
-him.initialize("Sumit",45);
-him.teach("JavaScript");
+function Teacher() { }
+Teacher.prototype.teach = function (subject) {
+this.subject=subject;
+    console.log(this.name + " is now teaching " + this.subject);
+};
+Object.setPrototypeOf(Teacher.prototype, Person.prototype);
+var result = new Teacher();
+result.initialize("Adam", 25);
+result.teach("Initialization");
