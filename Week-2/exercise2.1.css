@@ -37,7 +37,7 @@ body{
     width: 500px;
     margin: 20px;
 }
-.c4-header{
+.article4-header{
     margin-top: 40px;
 }
 .a1{
@@ -65,11 +65,12 @@ body{
     height: 150px;
     background-color:darkslategray;
 }
-.foot{
+nav{
+
     text-align: center;
     padding: 4em;
 }
-.foot > a{
+nav > a{
     color: chartreuse;
     margin: 50px;
     text-decoration: underline;
