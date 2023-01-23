@@ -16,5 +16,7 @@
 
 running npm run build will create an optimized build of your app in the build folder. You can learn more about Create React App from its README and the User Guide.
 
+#can use this link to review this appliocation
 
+ "http://localhost:3002/"
 
